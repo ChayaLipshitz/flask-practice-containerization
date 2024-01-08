@@ -18,6 +18,7 @@ COPY app .
 
 # Set environment variables
 ENV FLASK_APP=app/main.py
+
 ENV FLASK_ENV=development
 
 # Optional - Turn on the debugger
